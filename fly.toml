@@ -7,7 +7,8 @@ app = 'goclaw'
 primary_region = 'ams'
 
 [build]
-
+[build.args]
+      ENABLE_EMBEDUI = "true"
 [http_service]
   internal_port = 18790
   force_https = true
